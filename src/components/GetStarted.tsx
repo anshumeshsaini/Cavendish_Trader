@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import RegisterAnimation from "../assets/animation/Login.json";
-import DepositAnimation from "@/assets/animation/deposit.json";
+import DepositAnimation from "@/assets/animation/Deposit.json";
 import TradeAnimation from "@/assets/animation/ stock.json";
 
 const GetStarted = () => {

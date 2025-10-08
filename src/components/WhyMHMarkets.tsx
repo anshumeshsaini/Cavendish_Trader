@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Player } from "@lottiefiles/react-lottie-player";
-import lightningAnimation from "@/assets/animation/lightning.json";
+
 import supportAnimation from "@/assets/animation/CustomerSupport.json";
 import educationAnimation from "@/assets/animation/Educationedit.json";
 import securityAnimation from "@/assets/animation/AccountCreating.json";
