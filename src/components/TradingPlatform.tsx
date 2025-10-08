@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import trade from "@/assets/Trade.webp";
+import trade from "@/assets/trade.webp";
 
 const TradingPlatform = () => {
   return (
