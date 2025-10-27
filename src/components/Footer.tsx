@@ -58,7 +58,7 @@ const Footer = () => {
 
           {/* Company */}
           <div>
-
+            <h4 className="text-lg font-semibold text-white mb-4">Company</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors text-sm">About Us</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors text-sm">Regulation</a></li>
