@@ -1,41 +1,40 @@
 import { Card } from "@/components/ui/card";
-import { Player } from "@lottiefiles/react-lottie-player";
-
-import supportAnimation from "@/assets/animation/CustomerSupport.json";
-import educationAnimation from "@/assets/animation/Educationedit.json";
-import securityAnimation from "@/assets/animation/AccountCreating.json";
-import analyticsAnimation from "@/assets/animation/reporting.json";
-import managerAnimation from "@/assets/animation/job.json";
+import Quick from "@/assets/QuickExecution.svg";
+import supportAnimation from "@/assets/MultiSupport.webp";
+import educationAnimation from "@/assets/Education.webp";
+import securityAnimation from "@/assets/risk.webp";
+import analyticsAnimation from "@/assets/report.webp";
+import managerAnimation from "@/assets/manager.webp";
 
 const WhyMHMarkets = () => {
   const features = [
     {
-      animation: "https://lottie.host/8a36e17c-5e37-4c3e-8b3a-5f5b5f5f5f5f/lightning.json",
+      icon: Quick,
       title: "Quick Execution",
       description: "Experience execution at lightning speed. Our award-winning trading system lets you swiftly place orders to seize market opportunities."
     },
     {
-      animation: supportAnimation,
+      icon: supportAnimation,
       title: "24/7 Multi-lingual Customer Support",
       description: "Experience seamless support with our 24/7 multi-lingual customer service system, always ready to assist you."
     },
     {
-      animation: educationAnimation,
+      icon: educationAnimation,
       title: "Education & Training",
       description: "Elevate your trading prowess through our comprehensive training covering a spectrum of topics and confidently trade online with MetaTrader 5 and MetaTrader 4."
     },
     {
-      animation: securityAnimation,
+      icon: securityAnimation,
       title: "Account Risk Management",
       description: "We prioritize the safety and security of your trading activities with our strong background in account risk management."
     },
     {
-      animation: analyticsAnimation,
+      icon: analyticsAnimation,
       title: "Exclusive Market Research Reports",
       description: "Gain a competitive edge with our analysts providing timely insights and actionable trading ideas for well-informed decisions."
     },
     {
-      animation: managerAnimation,
+      icon: managerAnimation,
       title: "Dedicated Relationship Manager",
       description: "Our dedicated relationship manager offers proactive communication about market information, risk control and trading strategy to our esteemed clients so they can confidently navigate the financial markets."
     }
@@ -50,7 +49,7 @@ const WhyMHMarkets = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Why <span className="text-primary">MH Markets</span>?
+            Why <span className="text-primary">Cavendish Trader</span>?
           </h2>
         </div>
 
@@ -62,12 +61,10 @@ const WhyMHMarkets = () => {
             >
               <div className="mb-6">
                 <div className="w-16 h-16 bg-primary/30 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/40 transition-colors">
-                  <Player
-                    autoplay
-                    loop
-                    src={feature.animation}
-                    style={{ height: '40px', width: '40px' }}
-                    className="lottie-player"
+                  <img 
+                    src={feature.icon} 
+                    alt={feature.title}
+                    className="w-8 h-8 object-contain"
                   />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4">

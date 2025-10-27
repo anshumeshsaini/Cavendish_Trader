@@ -17,7 +17,7 @@ const TradingPlatform = () => {
         {/* Header Section */}
         <div className="text-center mb-20">
           <Badge variant="secondary" className="mb-6 px-4 py-2 text-sm font-semibold bg-gray-800 text-gray-200 border-gray-700">
-            🏆 Award Winning Platform
+             Award Winning Platform
           </Badge>
           <h2 className="text-5xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
             Navigate Global Markets

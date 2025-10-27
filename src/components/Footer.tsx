@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import logo from '../assets/logoremovebgp.png';
 
 const Footer = () => {
   return (
@@ -8,10 +9,18 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-primary rounded-sm flex items-center justify-center">
-                <span className="text-white font-bold text-lg">M</span>
-              </div>
-              <span className="text-xl font-bold text-white">MH Markets</span>
+
+<div className="w-12 h-13 bg-red-900 rounded-sm flex items-center justify-center">
+  <div className="w-15 h-15 flex items-center justify-center">
+    <img 
+      src={logo} 
+      alt="Cavendish Trader Logo" 
+      className="w-full h-full object-contain"
+    />
+  </div>
+</div>
+
+              <span className="text-xl font-bold text-white">Cavendish Trader</span>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed mb-6">
               Your trusted global forex & CFD broker providing professional trading solutions worldwide.
@@ -49,7 +58,7 @@ const Footer = () => {
 
           {/* Company */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Company</h4>
+
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors text-sm">About Us</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors text-sm">Regulation</a></li>
